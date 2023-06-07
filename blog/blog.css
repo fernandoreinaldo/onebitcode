@@ -1,0 +1,15 @@
+.postContainer{
+    background-color: #fffafa;
+    padding: 50px;
+    width: 50%;
+    margin: 20px auto 20px auto;
+}
+
+.postText{
+    padding-bottom: 20px;
+}
+
+.date{
+    padding-top: 20px;
+    color: #008080;
+}
