@@ -6,7 +6,6 @@
 
 .container {
     display: flex;
-
     background-color: darkgray;
     min-height: 100vh;
     gap: 0px 15px;
