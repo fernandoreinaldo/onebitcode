@@ -1,0 +1,22 @@
+.btn {
+    width: 125px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+
+    &.btnYellow {
+        background-color: yellow;
+    }
+
+    &.btnBlue {
+        background-color: blue;
+        color: white;
+    }
+}
+
+.btnPurple {
+    @extend .btn;
+    background-color: purple;
+    color: white;
+}
