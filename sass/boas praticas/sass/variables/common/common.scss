@@ -10,6 +10,12 @@
     background-color: $btnBackground;
     color: $btnColor;
     display: block;
-    margin-top: 10px;
+    padding-top: 10px;
     cursor: pointer;
+}
+
+@mixin textStyle($color, $font-size, $font-family){
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
 }

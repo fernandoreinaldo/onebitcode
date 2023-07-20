@@ -1,0 +1,16 @@
+@function colorContainer($backgroundColor){
+    @if(lightness($backgroundColor) > 50){
+        @return black;
+    } @else {
+        @return white;
+    }
+}
+
+@mixin backgroundColorMixin($color){
+    background-color: $color;
+    color: colorContainer($color);
+}
+
+.title{
+    @include backgroundColorMixin(blue);
+}

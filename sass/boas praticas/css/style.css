@@ -10,8 +10,20 @@
   background-color: #124715;
   color: white;
   display: block;
-  margin-top: 10px;
+  padding-top: 10px;
   cursor: pointer;
+}
+
+.containerCadastro p {
+  color: #8b1719;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+.containerLogin p {
+  color: green;
+  font-size: 110px;
+  font-family: Arial;
 }
 
 /*# sourceMappingURL=style.css.map */

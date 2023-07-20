@@ -1,0 +1,5 @@
+.containerCadastro{
+    p{
+        @include textStyle($primaryColor, 100px, sans-serif)
+    }
+}
