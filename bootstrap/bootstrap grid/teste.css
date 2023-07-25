@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.col{
+    background-color: #ff0043;
+    border: 1px solid black;
+    text-align: center;
+}
+
