@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: px;
+}
+
+body{
+    color: white;
+    background-image: url(../../images/backgroundLp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.container1{
+    background-color: $backgroundContainer;
+    width: 450px;
+}
+
+img{
+    width: 180px;
+}

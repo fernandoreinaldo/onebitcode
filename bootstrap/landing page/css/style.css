@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  margin: px;
+}
+
+body {
+  color: white;
+  background-image: url(../../images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 450px;
+}
+
+img {
+  width: 180px;
+}
+
+/*# sourceMappingURL=style.css.map */
