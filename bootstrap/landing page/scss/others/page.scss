@@ -9,13 +9,29 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
+    color: white;
 }
 
 .container1{
     background-color: $backgroundContainer;
     width: 450px;
+    height: auto;
 }
 
 img{
     width: 180px;
+}
+
+.paragraph{
+    margin: 8px 0px;
+}
+
+.btnSend{
+    color: $buttonColor;
+    border: 1px solid $buttonColor;
+
+    &:hover{
+        background-color: $buttonColor;
+        color: white;
+    }
 }
