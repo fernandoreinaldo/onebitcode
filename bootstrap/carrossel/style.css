@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#carouselExampleSlidesOnly{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#carouselExampleInterval{
+    width: 700px;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,23 @@
+.body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+h4{
+    color: yellowgreen;
+}
+
+h5{
+    color: green;
+}
+
+.scrollSpy{
+    height: 472px;
+    overflow: auto;
+    position: relative;
+    background-color: blue;
+}
+
+p{
+    font-size: 25px;
+}
