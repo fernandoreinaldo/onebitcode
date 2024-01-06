@@ -7,13 +7,13 @@
 
 //     Depois o programa deve exibir o nome completo do recruta, seu campo de estudo e sua idade (apenas baseada no ano de nascimento)
 
-let name = prompt("Digite o seu Primeiro Nome:")
-let sobrenome = prompt("Digite o seu Último Nome:")
-let campoDeEstudo = prompt("Digite o seu Campo de Estudo:")
-let ano = prompt ("Digite o ano do seu nascimento:")
+let name = prompt("Digite o seu primeiro nome: ")
+let surname = prompt("Digite o seu último nome: ")
+let study = prompt("Digite o seu campo de estudo: ")
+let year = prompt("Digite o ano em que você nasceu: ")
 
 alert(
-    "\nNome Completo: " + name + " " + sobrenome +
-    "\nCampo de Estudo: " + campoDeEstudo + 
-    "\nIdade: " + (2023 - ano)
+    "Nome completo: " + name + " " + surname +
+    "\nCampo de estudo: " + study +
+    "\nIdade: " + (2023 - year)
 )
