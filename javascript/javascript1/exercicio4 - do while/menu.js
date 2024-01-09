@@ -6,19 +6,19 @@ do {
     switch (option) {
         case "1":
             alert("Opção 1")
-            option = prompt("Escolha uma opção")
+            option = prompt("Escolha uma opção: \n1 - Opção Um  \n2 - Opção Dois \n3 - Opção Três  \n4 - Opção Quatro \n5 - Encerrar")
             break
         case "2":
             alert("Opção 2")
-            option = prompt("Escolha uma opção")
+            option = prompt("Escolha uma opção: \n1 - Opção Um  \n2 - Opção Dois \n3 - Opção Três  \n4 - Opção Quatro \n5 - Encerrar")
             break
         case "3":
             alert("Opção 3")
-            option = prompt("Escolha uma opção")
+            option = prompt("Escolha uma opção: \n1 - Opção Um  \n2 - Opção Dois \n3 - Opção Três  \n4 - Opção Quatro \n5 - Encerrar")
             break
         case "4":
             alert("Opção 4")
-            option = prompt("Escolha uma opção")
+            option = prompt("Escolha uma opção: \n1 - Opção Um  \n2 - Opção Dois \n3 - Opção Três  \n4 - Opção Quatro \n5 - Encerrar")
             break
     }
 } while (option != "5")
