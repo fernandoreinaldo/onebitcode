@@ -5,8 +5,6 @@
 const filaEspera = []
 let option = ""
 
-// let option = prompt("Lista de Espera: " + "\n" + filaEspera + "\n\nEscolha uma opção: \n1 - Novo Paciente \n2 - Consultar Paciente \n3 - Sair")
-
 do {
     let patients = ""
     for (let i = 0; i < filaEspera.length; i++) {
