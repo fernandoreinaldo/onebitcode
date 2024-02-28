@@ -19,7 +19,11 @@ do {
             break
         case "2":
             const offCard = pilhaCartas.pop()
-            alert("Carta removida: " + offCard)
+            if (!offCard) {
+                alert("Não há nenhuma carta no baralho")
+            } else {
+                alert("Carta removida: " + offCard)
+            }
             break
         case "3":
             alert("Encerrando...")
